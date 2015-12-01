@@ -1,0 +1,44 @@
+ .skip-to-main
+ 	width 1px 
+ 	height 1px 
+ 	overflow hidden
+ 	position absolute
+ 	&:focus 
+ 		width auto
+ 		height auto
+ 		background-color #efefef
+ 		padding 0.5em 
+ 		font-family $benton
+ 		z-index 1
+ 	
+figure
+	margin 2em auto
+	padding 0.5em
+	display block
+	
+	img, video
+		display block
+		width 100%
+
+	small
+		display block
+		font($sans, $bold)
+		font-size 0.65em
+		color $gray-medium
+		padding 0
+		text-align right 
+		text-transform uppercase 
+		
+	figcaption 
+		display block
+		font($serif, $regular)
+		font-size 0.8em
+		color $gray
+		line-height 1.8
+
+// fade image in after load with lazysizes
+.lazyload
+	filter blur(2px)
+
+.lazyloaded
+	filter blur(none)
