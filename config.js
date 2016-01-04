@@ -3,7 +3,7 @@ var username = require('./username.js');
 module.exports = {
 	copy: {
 		google: {
-			id: ''
+			id: '1rzIK0o-aUaWIKgf92wwMHfQrY0fVnGvvNUllrmzIykI'
 		}
 	},
 	deploy: {

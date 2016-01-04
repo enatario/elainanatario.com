@@ -1,14 +1,20 @@
 {
-	"title": "Graphic title",
-	"author": "",
-	"description": "Description of graphic",
-	"keywords": "Comma, delimited, for, seo",
-	"url": "https://apps.bostonglobe.com/graphics/path/to/graphic",
-	"image_url": "https://apps.bostonglobe.com/graphics/path/to/image",
-	"page_id": "apps.mmddyy.title-no-spaces",
-	"section": "Metro",
-	"chartbeat_section": "metro",
-	"header_color": "",
-	"credits": [],
-	"paywall": false
+  "title": "Elaina Natario",
+  "description": "description",
+  "keywords": "keywords, go here",
+  "url": "url",
+  "image_url": "url",
+  "author": "Elaina Natario",
+  "work": [
+    {
+      "title": "The Staff of Life and Love",
+      "info": "Something goes here just like this",
+      "link": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
+    },
+    {
+      "title": "Journey to Myanmar",
+      "info": "Something goes here just like this",
+      "link": "https://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
+    }
+  ]
 }
