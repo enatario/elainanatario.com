@@ -54,7 +54,7 @@ function loadCSS( href, before, media, callback ){
 * http://filamentgroup.com/
 * Copyright (c) 2014 Filament Group *//*! EnhanceJS: a progressive enhancement boilerplate. Copyright 2014 @scottjehl, Filament Group, Inc. Licensed MIT */
 (function( window, undefined ) {
-  var filepath = 'https://apps.bostonglobe.com/common/font/';
+  var filepath = '/assets/fonts/';
   "use strict";
   var doc = window.document;
   if( !( "querySelector" in doc ) ){
