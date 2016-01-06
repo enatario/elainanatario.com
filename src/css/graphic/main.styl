@@ -7,11 +7,12 @@
 
 // See `base` folder for variables (color, font, media queries)
 
-$celedon = #9DE0AD
+$celedon = #D6E1C7
 $teal = #45ADA8
 $salmon = #FC9D9A
 $steel = #547980
 $eggshell = #FFFCF7
+$text = #2D2C2A
 
 
 gingham(width, color1, color2, color3, color4)
@@ -26,21 +27,43 @@ body
 	padding 1.5em
 	overflow-x hidden
 	background-color $eggshell
-	gingham(1.5em, $celedon, $teal, $salmon, $steel)
+	// gingham(1em, $steel, $celedon, $steel, $celedon)
 
 
 // Container
 .container
 	display flex
 	justify-content center
+	padding 0 1em
 
 
 // Link List
 .refer
+	position relative
+	
+	+mq('bp-2')
+		padding 0 10em
 	
 	&--subhed
-		font($sans, $bold)
-		rhythm('medium')
+		font($sans, $regular)
+		font-size 0.8em
+		color $text
+		letter-spacing 0.05em
+		line-height 1.5
+		margin-bottom 1em
+		text-transform uppercase
+			
+		&:before
+			content '\1F389'
+			display inline-block
+			margin-right 0.5em
+			animation bounce 1s infinite
+			
+		&:after
+			content '\1F389'
+			display inline-block
+			margin-left 0.5em
+			animation bounce 1s 0.5s infinite
 	
 	&--list
 		list-style-type none
@@ -49,12 +72,11 @@ body
 		rhythm('base')
 	
 	&--link
+		color $text
 		font($sans, $bold)
-		color darken($steel, 40%)
 		text-decoration none
 		position relative
-		transition 0.3s ease all
-		padding-bottom 0.5em
+		padding-bottom 0.35em
 		
 		&:before
 			content ''
@@ -63,12 +85,12 @@ body
 			right 0
 			display block
 			width 100%
-			border-bottom 5px solid $teal
-			transition 1s ease all
+			border-bottom 3px solid $celedon
+			transition 0.7s ease all
 		
 		&:after
 			@extends .refer--link:before
-			border-bottom 5px solid $salmon
+			border-bottom 3px solid $salmon
 		
 		&:hover
 			&:before
@@ -76,4 +98,39 @@ body
 			
 			&:after
 				width 0px
-			
+
+// Animation
+@keyframes bounce
+	0%
+		transform translateY(0)
+	50%
+		transform translateY(-0.5em)
+	100%
+		transfom translateY(0)
+
+// Notes
+.note
+	background-color rgba($salmon, 0.5)
+	padding 0.25em 0.5em
+	border-radius 3px
+	transition $ease
+	cursor pointer
+	
+	
+	&:hover
+		background-color rgba($salmon, 0.8)
+	
+	&--info
+		color green
+		transition $ease
+		
+		+mq('bp-2')
+			position absolute
+			left 0
+			top 0
+			max-width 9em
+
+.hidden
+	visibility hidden
+	opacity 0
+	transform translateX(2em)
