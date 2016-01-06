@@ -1,13 +1,12 @@
-<div>
-<div>
-<h2>Things I've made</h2>
-<ul>
-	{{#each copy.work}}
-	<li>
-		<a href='{{link}}' target='_blank'>{{title}}</a>
-		<p>{{info}}</p>
-	</li>
-	{{/each}}
-</ul>
-</div>
+
+<div class='refer'>
+	<h2 class='refer--subhed'>Things I've made</h2>
+	<ul class='refer--list'>
+		{{#each copy.work}}
+		<li class='refer--item'>
+			<a class='refer--link' href='{{link}}' target='_blank'>{{title}}</a>
+			<p class='refer--info'>{{info}}</p>
+		</li>
+		{{/each}}
+	</ul>
 </div>

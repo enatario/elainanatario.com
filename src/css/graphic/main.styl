@@ -20,6 +20,7 @@ gingham(width, color1, color2, color3, color4)
 			   inset 0 (-(width)) 0 0 rgba(color3, 0.5),
 			   inset width 0 0 rgba(color4, 0.5)
 
+
 body
 	min-height 100vh
 	padding 1.5em
@@ -27,6 +28,52 @@ body
 	background-color $eggshell
 	gingham(1.5em, $celedon, $teal, $salmon, $steel)
 
-h2
-	font-family 'Montserrat'
-	font-weight 700
+
+// Container
+.container
+	display flex
+	justify-content center
+
+
+// Link List
+.refer
+	
+	&--subhed
+		font($sans, $bold)
+		rhythm('medium')
+	
+	&--list
+		list-style-type none
+	
+	&--item
+		rhythm('base')
+	
+	&--link
+		font($sans, $bold)
+		color darken($steel, 40%)
+		text-decoration none
+		position relative
+		transition 0.3s ease all
+		padding-bottom 0.5em
+		
+		&:before
+			content ''
+			position absolute
+			bottom 0
+			right 0
+			display block
+			width 100%
+			border-bottom 5px solid $teal
+			transition 1s ease all
+		
+		&:after
+			@extends .refer--link:before
+			border-bottom 5px solid $salmon
+		
+		&:hover
+			&:before
+				width 100%
+			
+			&:after
+				width 0px
+			
