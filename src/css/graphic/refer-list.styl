@@ -1,0 +1,76 @@
+//=======================
+// Refer List
+//=======================
+.refer
+	list-style-type none
+	
+	&--item
+		// rhythm('base')
+		line-height 1.5
+		margin-bottom 3em
+	
+	&--kicker
+		font($sans)
+		text-transform uppercase
+		font-size 0.7em
+		color $steel
+		margin-bottom 0.5em
+	
+	&--link
+		color $text
+		font($sans, $bold)
+		position relative
+		padding-bottom 0.35em
+		font-size 1.2em
+		
+		&:before
+			content ''
+			position absolute
+			bottom 0
+			right 0
+			display block
+			width 100%
+			border-bottom 3px solid $celedon
+			transition 0.7s ease all
+		
+		&:after
+			@extends .refer--link:before
+			border-bottom 3px solid $salmon
+		
+		// Resolve mobile hover issue
+		+mq('bp-2')		
+			&:hover
+				&:before
+					width 100%
+				
+				&:after
+					width 0px
+	
+	&--info
+		margin-top 1em
+
+// Animation
+@keyframes bounce
+	0%
+		transform translateY(0)
+	50%
+		transform translateY(-0.5em)
+	100%
+		transfom translateY(0)
+
+// Emoji Kickers
+.illustration:before
+	content '\1F3A8'
+	margin-right 0.25em
+
+.longform:before
+	content '\1F4D5'
+	margin-right 0.25em
+
+.interactive:before
+	content '\1F4BB'
+	margin-right 0.25em
+
+.prototype:before
+	content '\1F528'
+	margin-right 0.25em

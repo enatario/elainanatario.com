@@ -9,10 +9,11 @@
         {{> base/base-critical }}
     </head>
     <body>
-        {{> base/base-header }}
-        
-        <main class='container'>
-        {{> graphic/graphic }}
+        {{> graphic/header }}
+        <main class='content container'>
+            <h2 class='content--hed'>Things I've <sup class='note'>made</sup></h2>
+            {{> graphic/note }}
+            {{> graphic/refer-list }}
         </main>
         
         {{> base/base-js }}
