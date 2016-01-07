@@ -13,8 +13,8 @@
 		text-transform uppercase
 		margin-bottom 1em
 		padding-bottom 1em
-		text-align center
-		border-bottom 1px solid lighten($text, 75)
+		// text-align center
+		// border-bottom 1px solid lighten($text, 75)
 		
 		+mq('bp-2')
 			margin-bottom 2em
@@ -30,3 +30,12 @@
 			display inline-block
 			margin-left 0.5em
 			animation bounce 1s 0.5s infinite
+
+// Animation
+@keyframes bounce
+	0%
+		transform translateY(0)
+	50%
+		transform translateY(-0.5em)
+	100%
+		transfom translateY(0)

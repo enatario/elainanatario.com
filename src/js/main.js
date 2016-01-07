@@ -1,8 +1,8 @@
 (function() {
 	'use strict';
 
-	$('.note').on('click', function(e) {
-		$('.note--info').toggleClass("hidden");
+	$('.note--tag').on('click', function(e) {
+		$('.note').toggleClass("slide-hide");
       	e.preventDefault();
     });
 

@@ -1,23 +1,39 @@
 //=======================
 // Note
 //=======================
+
+
 .note
-	background-color rgba($celedon, 0.85)
-	padding 0.25em 0.5em
-	border-radius 3px
 	transition $ease
-	cursor pointer
+	height 12em
+	min-height 100%
 	
+	+mq('bp-2')
+		position absolute
+		left 0
+		top 0
+		max-width 10em
+		height 100%
 	
-	&:hover
-		background-color rgba($salmon, 0.5)
-	
-	&--info
-		color lighten($text, 20)
-		font-size 0.8em
-		line-height 1.5
+	&--tag
+		background-color rgba($celedon, 0.85)
+		padding 0.05em 0.5em
+		border-radius 3px
 		transition $ease
-		margin-bottom 2em
+		cursor pointer
+		
+		
+		&:hover
+			background-color rgba($salmon, 0.5)
+	
+	&--content
+		color lighten($text, 20)
+		font-size 0.9em
+		line-height 1.5
+		padding 1em
+		border-top 3px solid $celedon
+		background-color rgba($celedon, 0.2)
+		margin-top 2em
 		
 		
 		p
@@ -29,19 +45,12 @@
 				
 				&:hover
 					color darken($celedon, 20)
-		
-		+mq('bp-2')
-			position absolute
-			left 0
-			top 0
-			max-width 11em
 
-.hidden
-	height 0
-	overflow-x hidden
-	opacity 0
+	&.slide-hide
+		height 0
+		overflow hidden
 	
-	+mq('bp-2')
-		height 100%
-		overflow-x visible
-		transform translateX(-5em)
+		+mq('bp-2')
+			height 100%
+			overflow visible
+			transform translateY(-25em)
