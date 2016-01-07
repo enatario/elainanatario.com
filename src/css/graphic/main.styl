@@ -23,16 +23,12 @@ gingham(width, color1, color2, color3, color4)
 
 
 body
-	min-height 100vh
-	padding 1.5em
-	overflow-x hidden
-	background-color $eggshell
-	// gingham(1em, $steel, $celedon, $steel, $celedon)
+	position relative
 
 
 // Container
 .container
-	width 100%
+	width 90%
 	margin 0 auto
 	max-width 45em
 	
@@ -111,12 +107,13 @@ body
 			@extends .refer--link:before
 			border-bottom 3px solid $salmon
 		
-		&:hover
-			&:before
-				width 100%
-			
-			&:after
-				width 0px
+		+mq('bp-2')		
+			&:hover
+				&:before
+					width 100%
+				
+				&:after
+					width 0px
 	
 	&--info
 		margin-top 1em
