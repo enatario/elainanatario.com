@@ -10,7 +10,7 @@ module.exports = {
 		ssh: {
 			host: 'elainanatario.com',
 			username: username,
-			filepath: 'www.elainanatario.com/new/'
+			filepath: 'www.elainanatario.com'
 		}
 	}
 };
