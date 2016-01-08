@@ -5,14 +5,14 @@
 
 .note
 	transition $ease
-	height 12em
+	height 7em
 	min-height 100%
 	z-index 100
 	
 	+mq('bp-2')
 		position absolute
 		left 0
-		top 0
+		top 0.5em
 		max-width 10em
 		height 100%
 	
@@ -35,17 +35,6 @@
 		border-top 3px solid $celedon
 		background-color rgba($celedon, 0.2)
 		margin-top 2em
-		
-		
-		p
-			margin-bottom 1em
-			
-			a
-				color $salmon
-				transition $ease
-				
-				&:hover
-					color darken($celedon, 20)
 
 	&.slide-hide
 		height 0
