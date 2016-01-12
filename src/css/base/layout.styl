@@ -1,9 +1,5 @@
 //=======================
 // Layout
-// ----------------------
-// general styles not
-// reliant on other base
-// partials
 //=======================
 
 .hidden
@@ -25,3 +21,13 @@ a
 
 body
 	text-size-adjust 100%
+
+// Container
+.container
+	width 90%
+	margin 2em auto
+	max-width 25em
+	
+	+mq('bp-2')
+		max-width 45em
+		padding 0 12em

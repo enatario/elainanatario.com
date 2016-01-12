@@ -5,7 +5,6 @@
 	list-style-type none
 	
 	&--item
-		// rhythm('base')
 		line-height 1.5
 		margin-bottom 3em
 	
@@ -32,7 +31,7 @@
 			display block
 			width 100%
 			border-bottom 3px solid $celedon
-			transition 0.7s ease all
+			transition 0.7s ease-in-out all
 		
 		&:after
 			@extends .refer--link:before
@@ -52,18 +51,17 @@
 
 
 // Emoji Kickers
-.illustration:before
-	content '\1F3A8'
+.refer--kicker:before
 	margin-right 0.25em
+
+.illustration:before
+	content '\1F3A8'  // artist's palette
 
 .longform:before
-	content '\1F4D5'
-	margin-right 0.25em
+	content '\1F4D5'  // open book
 
 .interactive:before
-	content '\1F4BB'
-	margin-right 0.25em
+	content '\1F4BB'  // desktop computer
 
 .prototype:before
-	content '\1F528'
-	margin-right 0.25em
+	content '\1F528'  // hammer

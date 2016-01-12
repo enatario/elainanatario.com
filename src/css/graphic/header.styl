@@ -12,9 +12,6 @@
 		color $text
 		line-height 1.5
 		text-align center
-		
-		// +mq('bp-2')
-		// 	padding-bottom 3em
 
 		
 		&:before
@@ -22,5 +19,14 @@
 			display block
 			margin-right 0.5em
 			animation bounce 1s infinite
+
+// Animation
+@keyframes bounce
+	0%
+		transform translateY(0)
+	50%
+		transform translateY(-0.5em)
+	100%
+		transfom translateY(0)
 
 
