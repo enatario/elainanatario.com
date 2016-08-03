@@ -4,21 +4,24 @@
 
 .hed
 	position relative
-	
-	
+	a
+		color darken($celedon, 30)
+		transition 0.2s ease-in-out all
+		&:hover
+			color darken($salmon, 20)
 	&--tagline
 		font($sans)
-		font-size 1.2em
+		font-size 1.5em
 		color $text
 		line-height 1.5
-		text-align center
+		// text-align center
 
 		
-		&:before
-			content '\1F389'
-			display block
-			margin-right 0.5em
-			animation bounce 1s infinite
+		// &:before
+		// 	content '\1F389'
+		// 	display inline-block
+		// 	margin-right 0.5em
+		// 	animation bounce 1s infinite
 
 // Animation
 @keyframes bounce
