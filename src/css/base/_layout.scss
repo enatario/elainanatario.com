@@ -4,3 +4,15 @@ body {
   justify-content: center;
   padding: var(--space--medium);
 }
+
+li {
+  @include padding(var(--space--base) null);
+
+  align-items: baseline;
+  border-bottom-style: solid;
+  border-bottom-width: var(--border-thickness--base);
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: var(--space--medium);
+  justify-content: start;
+}

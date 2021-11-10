@@ -6,9 +6,14 @@ body {
 a {
   color: var(--color--text);
   text-decoration-color: var(--color--link);
+  text-decoration-thickness: var(--border-thickness--thick);
   transition: text-decoration-color var(--transition-timing--base) ease-in-out;
 
   &:hover {
     text-decoration-color: var(--color--text);
   }
+}
+
+li {
+  border-color: var(--color--border);
 }

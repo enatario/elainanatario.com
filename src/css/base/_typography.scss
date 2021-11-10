@@ -7,6 +7,21 @@ body {
   line-height: var(--line-height--base);
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+time {
+  font-size: var(--font-size--small);
+}
+
+li a {
+  font-size: clamp(1.2rem, 2vw, 2rem);
+}
+
 @mixin relative-clamp-sizes($min, $val, $max, $ratio) {
   font-size: clamp(#{$min}, #{$val}, #{$max});
 
