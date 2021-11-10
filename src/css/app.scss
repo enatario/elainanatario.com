@@ -4,3 +4,14 @@
 
 // Dependencies
 @import "bourbon/core/bourbon";
+
+// Base Dependencies
+@import "base/root";
+
+// Base
+@import "base/layout";
+@import "base/theme";
+@import "base/typography";
+
+// Utilities
+@import "utilities/hide-visually";

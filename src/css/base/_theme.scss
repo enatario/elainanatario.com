@@ -1,0 +1,14 @@
+body {
+  background-color: var(--color--bg);
+  color: var(--color--text);
+}
+
+a {
+  color: var(--color--text);
+  text-decoration-color: var(--color--link);
+  transition: text-decoration-color var(--transition-timing--base) ease-in-out;
+
+  &:hover {
+    text-decoration-color: var(--color--text);
+  }
+}

@@ -1,0 +1,6 @@
+body {
+  display: grid;
+  grid-template-columns: minmax(auto, var(--container--base));
+  justify-content: center;
+  padding: var(--space--medium);
+}

@@ -1,0 +1,31 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--font-family--base);
+  line-height: var(--line-height--base);
+}
+
+@mixin relative-clamp-sizes($min, $val, $max, $ratio) {
+  font-size: clamp(#{$min}, #{$val}, #{$max});
+
+  a {
+    text-decoration-thickness: clamp(
+      calc(#{$min} / #{$ratio}),
+      calc(#{$val} / #{$ratio}),
+      calc(#{$max} / #{$ratio})
+    );
+  }
+}
+
+header > p {
+  @include relative-clamp-sizes(
+    var(--font-size--medium),
+    4vw,
+    var(--font-size--large),
+    8
+  );
+
+  line-height: var(--line-height--tight);
+}
