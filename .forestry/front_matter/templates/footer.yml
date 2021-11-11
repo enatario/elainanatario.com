@@ -4,14 +4,22 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: field_group_list
   name: link_list
-  label: link_list
+  label: Link List
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
+    config:
+      required: true
   - type: text
     name: url
-    label: url
+    label: URL
+    config:
+      required: true
+  config:
+    labelField: title
