@@ -1,0 +1,11 @@
+@include font-face("Nib", $dir-font + "nib-regular-pro") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@include font-face("Nib", $dir-font + "nib-bold-pro") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+}
