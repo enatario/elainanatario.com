@@ -2,9 +2,18 @@
 label: Intro Block
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
-- type: textarea
-  name: intro
-  label: intro
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: This is hidden text
+- name: intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Intro
