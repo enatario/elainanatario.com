@@ -28,3 +28,5 @@ fields:
     max: 
     labelField: title
   label: Section
+pages:
+- src/_data/content.json
