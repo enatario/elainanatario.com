@@ -8,19 +8,33 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
+    config:
+      required: true
   - type: field_group_list
     name: dated_list
-    label: dated_list
+    label: Dated List
     fields:
     - type: text
-      name: date
-      label: date
+      name: title
+      label: Title
+      config:
+        required: true
     - type: text
       name: url
-      label: url
-    - type: text
-      name: title
-      label: title
+      label: URL
+      config:
+        required: true
+    - name: date
+      type: datetime
+      label: Date
+      description: ''
+      config:
+        required: true
+        date_format: YYYY
+        time_format: 
+        display_utc: false
+    config:
+      labelField: title
   config:
     labelField: title
