@@ -5,17 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/_data/footer.json
-  label: Footer
-  match: "**/*"
-- type: document
   path: src/_data/header.json
   label: Header
-  match: "**/*"
 - type: document
   path: src/_data/content.json
   label: Content
-  match: "**/*"
+- type: document
+  path: src/_data/footer.json
+  label: Footer
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
