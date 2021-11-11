@@ -5,6 +5,11 @@ body {
   padding: var(--space--medium);
 }
 
+main {
+  display: grid;
+  grid-row-gap: var(--space--x-large);
+}
+
 li {
   @include padding(var(--space--base) null);
 
