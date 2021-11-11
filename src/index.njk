@@ -3,64 +3,18 @@ layout: layouts/base.njk
 ---
 
 <header>
-  <h1 class="u-hide-visually">Elaina Natario: designer and coder</h1>
-  <p>
-  Hi friend! I’m Elaina Natario, a designer and coder living in <a href="https://en.wikipedia.org/wiki/Salem,_Massachusetts">Salem, Massachusetts</a>.  Currently, I’m a senior product and front-end designer at <a href="https://thoughtbot.com/">thoughtbot</a>.
-  </p>
+  <h1 class="u-hide-visually">{{ header.title }}</h1>
+  <p>{{ header.intro | safe }}</p>
 </header>
 
+{% for section in content.section %}
 <section>
-  <h2>Projects</h2>
-  <ul>
+  <h2>{{ section.title }}</h2>
+  {% for item in section.dated_list %}
     <li>
-      <time datetime="2021">2021</time>
-      <a href="https://www.monumentpalettes.style/">Monument Palettes</a>
+      <time datetime="{{ item.date }}">{{ item.date }}</time>
+      <a href="{{ item.url }}">{{ item.title }}</a>
     </li>
-    <li>
-      <time datetime="2020">2020</time>
-      <a href="https://www.kleecoach.com/">Steve Klee, Leadership Coach</a>
-    </li>
-    <li>
-      <time datetime="2018">2018</time>
-      <a href="https://thoughtbot.com/case-studies/mbta">The MBTA Green Line</a>
-    </li>
-    <li>
-      <time datetime="2017">2017</time>
-      <a href="https://www.theatlantic.com/theplatinumpatients/">The Platinum Patients</a>
-    </li>
-    <li>
-      <time datetime="2017">2017</time>
-      <a href="https://www.elainaanderic.party/">Elaina and Eric are getting married!</a>
-    </li>
-    <li>
-      <time datetime="2016">2016</time>
-      <a href="https://apps.bostonglobe.com/50-words/">50 words</a>
-    </li>
-    <li>
-      <time datetime="2015">2015</time>
-      <a href="https://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html">Journey to Myanmar</a>
-    </li>
-  </ul>
+  {% endfor %}
 </section>
-
-<section>
-  <h2>Writing</h2>
-  <ul>
-    <li>
-      <time datetime="2020">2020</time>
-      <a href="https://thoughtbot.com/blog/alt-vs-figcaption">Alt vs Figcaption</a>
-    </li>
-    <li>
-      <time datetime="2020">2020</time>
-      <a href="https://thoughtbot.com/blog/my-first-remote-design-sprint">My first remote design sprint</a>
-    </li>
-    <li>
-      <time datetime="2018">2018</time>
-      <a href="https://pudding.cool/process/scrollytelling-sticky/">Easier scrollytelling with position sticky</a>
-    </li>
-    <li>
-      <time datetime="2016">2016</time>
-      <a href="https://source.opennews.org/articles/how-we-made-make-it-stop/">How We Made “Make it Stop”</a>
-    </li>
-  </ul>
-</section>
+{% endfor %}

@@ -1,0 +1,69 @@
+{
+  "section": [
+    {
+      "title": "Projects",
+      "dated_list": [
+        {
+          "date": "2021",
+          "url": "https://www.monumentpalettes.style/",
+          "title": "Monument Palettes"
+        },
+        {
+          "date": "2020",
+          "url": "https://www.kleecoach.com/",
+          "title": "Steve Klee, Leadership Coach"
+        },
+        {
+          "date": "2018",
+          "url": "https://thoughtbot.com/case-studies/mbta",
+          "title": "The MBTA Green Line"
+        },
+        {
+          "date": "2017",
+          "url": "https://www.theatlantic.com/theplatinumpatients",
+          "title": "The Platinum Patients"
+        },
+        {
+          "date": "2017",
+          "url": "https://www.elainaanderic.party",
+          "title": "Elaina and Eric are getting married!"
+        },
+        {
+          "date": "2016",
+          "url": "https://apps.bostonglobe.com/50-words",
+          "title": "50 words"
+        },
+        {
+          "date": "2015",
+          "url": "https://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html",
+          "title": "Journey to Myanmar"
+        }
+      ]
+    },
+    {
+      "title": "Writing",
+      "dated_list": [
+        {
+          "date": "2020",
+          "url": "https://thoughtbot.com/blog/alt-vs-figcaption",
+          "title": "Alt vs Figcaption"
+        },
+        {
+          "date": "2020",
+          "url": "https://thoughtbot.com/blog/my-first-remote-design-sprint",
+          "title": "My first remote design sprint"
+        },
+        {
+          "date": "2018",
+          "url": "https://pudding.cool/process/scrollytelling-sticky",
+          "title": "Easier scrollytelling with position sticky"
+        },
+        {
+          "date": "2016",
+          "url": "https://source.opennews.org/articles/how-we-made-make-it-stop",
+          "title": "How We Made “Make it Stop”"
+        }
+      ]
+    }
+  ]
+}
