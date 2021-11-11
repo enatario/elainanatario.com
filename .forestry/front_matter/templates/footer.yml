@@ -20,3 +20,5 @@ fields:
     max: 
     labelField: title
   label: Link List
+pages:
+- src/_data/footer.json
