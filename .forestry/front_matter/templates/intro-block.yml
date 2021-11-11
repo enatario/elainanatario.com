@@ -1,0 +1,10 @@
+---
+label: Intro Block
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: intro
+  label: intro
