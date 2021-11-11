@@ -2,6 +2,16 @@
 label: Dated List
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: url
+  type: text
+  config:
+    required: true
+  label: URL
 - name: date
   type: datetime
   label: Date
@@ -11,13 +21,3 @@ fields:
     date_format: YYYY
     time_format: 
     display_utc: false
-- name: url
-  type: text
-  config:
-    required: true
-  label: URL
-- name: title
-  type: text
-  config:
-    required: true
-  label: Title
