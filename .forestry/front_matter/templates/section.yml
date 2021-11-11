@@ -10,6 +10,19 @@ fields:
     config:
       required: true
     label: Title
+  - name: dated_list
+    type: field_group_list
+    fields:
+    - name: dated_list
+      type: include
+      config: {}
+      template: dated-list
+      label: Dated List
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Dated List
   config:
     min: 
     max: 
