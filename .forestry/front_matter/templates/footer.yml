@@ -1,0 +1,17 @@
+---
+label: Footer
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: link_list
+  label: link_list
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
