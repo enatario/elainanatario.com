@@ -1,0 +1,24 @@
+---
+label: Section
+hide_body: true
+fields:
+- type: field_group_list
+  name: section
+  label: section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: dated_list
+    label: dated_list
+    fields:
+    - type: text
+      name: date
+      label: date
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: title
+      label: title
