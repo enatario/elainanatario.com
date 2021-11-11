@@ -17,3 +17,5 @@ fields:
     schema:
       format: html
   label: Intro
+pages:
+- src/_data/header.json
