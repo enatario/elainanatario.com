@@ -7,19 +7,16 @@ fields:
   label: Title
   config:
     required: true
-- type: field_group_list
-  name: link_list
-  label: Link List
+- name: link_list
+  type: field_group_list
   fields:
-  - type: text
-    name: title
-    label: Title
-    config:
-      required: true
-  - type: text
-    name: url
-    label: URL
-    config:
-      required: true
+  - name: link_list_item
+    type: include
+    config: {}
+    template: link-list-item
+    label: Link List Item
   config:
+    min: 
+    max: 
     labelField: title
+  label: Link List
