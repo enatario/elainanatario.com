@@ -1,4 +1,4 @@
-body {
+@mixin container {
   display: grid;
   grid-template-columns: minmax(auto, var(--container--base));
   justify-content: center;
@@ -6,11 +6,12 @@ body {
 }
 
 main {
-  display: grid;
+  @include container;
+
   grid-row-gap: var(--space--x-large);
 }
 
-li {
+section li {
   @include padding(var(--space--base) null);
 
   align-items: baseline;
@@ -20,4 +21,19 @@ li {
   grid-auto-flow: column;
   grid-gap: var(--space--medium);
   justify-content: start;
+}
+
+footer {
+  @include container;
+
+  border-top-style: solid;
+  border-top-width: var(--border-thickness--base);
+  margin-top: var(--space--x-large);
+}
+
+footer ul {
+  display: grid;
+  grid-gap: var(--space--small);
+  grid-template-columns: repeat(auto-fill, minmax(min(10ch, 100%), 1fr));
+  margin-top: var(--space--base);
 }
