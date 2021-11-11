@@ -1,4 +1,23 @@
 ---
 label: Dated List
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: YYYY
+    time_format: 
+    display_utc: false
+- name: url
+  type: text
+  config:
+    required: true
+  label: URL
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
