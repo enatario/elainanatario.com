@@ -34,6 +34,6 @@ footer {
 footer ul {
   display: grid;
   grid-gap: var(--space--small);
-  grid-template-columns: repeat(auto-fill, minmax(min(10ch, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
   margin-top: var(--space--base);
 }
