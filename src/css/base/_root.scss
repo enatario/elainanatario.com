@@ -7,11 +7,12 @@ $dir-font: "/static/fonts/";
 :root {
   --color--beige-light: #f1f1eb;
   --color--beige-dark: #b2b2a7;
-  --color--blue: #164650;
+  --color--blue-dark: #164650;
+  --color--blue-light: #57929e;
   --color--pink: #efaf98;
 
   --color--bg: var(--color--beige-light);
-  --color--text: var(--color--blue);
+  --color--text: var(--color--blue-dark);
   --color--link: var(--color--pink);
   --color--border: var(--color--beige-dark);
 
@@ -37,4 +38,10 @@ $dir-font: "/static/fonts/";
   --container--base: 60rem;
 
   --transition-timing--base: 0.2s;
+
+  @media (prefers-color-scheme: dark) {
+    --color--bg: var(--color--blue-dark);
+    --color--text: var(--color--beige-light);
+    --color--border: var(--color--blue-light);
+  }
 }
