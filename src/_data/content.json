@@ -2,7 +2,6 @@
   "section": [
     {
       "title": "Projects",
-      "aside": "Client case studies available upon request",
       "dated_list": [
         {
           "date": "2021",
@@ -44,11 +43,6 @@
     {
       "title": "Writing",
       "dated_list": [
-        {
-          "title": "Tailwind and the Femininity of CSS",
-          "url": "https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css",
-          "date": "2021"
-        },
         {
           "date": "2020",
           "url": "https://thoughtbot.com/blog/alt-vs-figcaption",
