@@ -10,6 +10,11 @@ fields:
     config:
       required: true
     label: Title
+  - name: aside
+    type: text
+    config:
+      required: false
+    label: Aside
   - name: dated_list
     type: field_group_list
     fields:

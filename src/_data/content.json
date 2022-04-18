@@ -38,11 +38,17 @@
           "url": "https://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html",
           "title": "Journey to Myanmar"
         }
-      ]
+      ],
+      "aside": "Client case studies available upon request"
     },
     {
       "title": "Writing",
       "dated_list": [
+        {
+          "title": "Tailwind and the Femininity of CSS",
+          "url": "https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css",
+          "date": "2021"
+        },
         {
           "date": "2020",
           "url": "https://thoughtbot.com/blog/alt-vs-figcaption",
@@ -63,7 +69,8 @@
           "url": "https://source.opennews.org/articles/how-we-made-make-it-stop",
           "title": "How We Made “Make it Stop”"
         }
-      ]
+      ],
+      "aside": ""
     }
   ]
 }
