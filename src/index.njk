@@ -10,6 +10,7 @@ layout: layouts/base.njk
 {% for section in content.section %}
 <section>
   <h2>{{ section.title }}</h2>
+  {% if section.aside %}<aside><p>{{ section.aside }}</p></aside>{% endif %}
   <ul>
   {% for item in section.dated_list|sort(attribute='date', reverse=true) %}
     <li>
