@@ -18,8 +18,8 @@ section li {
   border-bottom-style: solid;
   border-bottom-width: var(--border-thickness--base);
   display: grid;
-  grid-auto-flow: column;
   grid-gap: var(--space--medium);
+  grid-template-columns: min(var(--space--medium)) max-content;
   justify-content: start;
 }
 
