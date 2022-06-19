@@ -19,7 +19,7 @@ section li {
   border-bottom-width: var(--border-thickness--base);
   display: grid;
   grid-gap: var(--space--medium);
-  grid-template-columns: min(var(--space--medium)) max-content;
+  grid-template-columns: min(var(--space--medium)) auto;
   justify-content: start;
 }
 
