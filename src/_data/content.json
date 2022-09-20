@@ -1,27 +1,6 @@
 {
   "section": [
     {
-      "title": "Podcasts, interviews, talks, etc.",
-      "aside": "",
-      "dated_list": [
-        {
-          "title": "UI Mondays: Tailwind and the Femininity of CSS",
-          "url": "https://youtu.be/zkjSQymGwmE",
-          "date": "2022"
-        },
-        {
-          "title": "Tentative: Park the Train-Car in Harvard Yard",
-          "url": "https://www.tentative.fm/97",
-          "date": "2020"
-        },
-        {
-          "title": "Tentative: Sparkle Makes Everything Magical",
-          "url": "https://www.tentative.fm/80",
-          "date": "2019"
-        }
-      ]
-    },
-    {
       "title": "Projects",
       "dated_list": [
         {
@@ -107,6 +86,27 @@
         }
       ],
       "aside": ""
+    },
+    {
+      "title": "Podcasts, interviews, talks, etc.",
+      "aside": "",
+      "dated_list": [
+        {
+          "title": "UI Mondays: Tailwind and the Femininity of CSS",
+          "url": "https://youtu.be/zkjSQymGwmE",
+          "date": "2022"
+        },
+        {
+          "title": "Tentative: Park the Train-Car in Harvard Yard",
+          "url": "https://www.tentative.fm/97",
+          "date": "2020"
+        },
+        {
+          "title": "Tentative: Sparkle Makes Everything Magical",
+          "url": "https://www.tentative.fm/80",
+          "date": "2019"
+        }
+      ]
     }
   ]
 }
