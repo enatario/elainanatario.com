@@ -4,6 +4,11 @@
       "title": "Projects",
       "dated_list": [
         {
+          "title": "Boston Ruby Group",
+          "url": "https://www.bostonrubygroup.com/",
+          "date": "2018"
+        },
+        {
           "date": "2021",
           "url": "https://www.monumentpalettes.style/",
           "title": "Monument Palettes"
