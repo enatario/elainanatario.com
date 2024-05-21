@@ -32,8 +32,8 @@ footer {
 }
 
 footer ul {
-  display: grid;
-  grid-gap: var(--space--small);
-  grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: var(--space--base);
   margin-top: var(--space--base);
 }
