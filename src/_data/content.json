@@ -60,6 +60,11 @@
       "title": "Writing",
       "dated_list": [
         {
+          "title": "Absolute positioning with CSS grid",
+          "url": "https://thoughtbot.com/blog/absolute-positioning-with-css-grid",
+          "date": "2024"
+        },
+        {
           "title": "Steal this interview script",
           "url": "https://thoughtbot.com/blog/steal-this-interview-script",
           "date": "2022"
