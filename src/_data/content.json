@@ -60,6 +60,11 @@
       "title": "Writing",
       "dated_list": [
         {
+          "title": "You might not need Bourbon",
+          "url": "https://thoughtbot.com/blog/you-might-not-need-bourbon",
+          "date": "2024"
+        },
+        {
           "title": "Absolute positioning with CSS grid",
           "url": "https://thoughtbot.com/blog/absolute-positioning-with-css-grid",
           "date": "2024"
