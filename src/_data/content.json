@@ -65,6 +65,11 @@
       "title": "Writing",
       "dated_list": [
         {
+          "title": "I just want to click the button",
+          "url": "https://thoughtbot.com/blog/i-just-want-to-click-the-button",
+          "date": "2025"
+        },
+        {
           "title": "You might not need Bourbon",
           "url": "https://thoughtbot.com/blog/you-might-not-need-bourbon",
           "date": "2024"
