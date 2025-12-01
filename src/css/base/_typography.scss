@@ -49,6 +49,8 @@ header > p {
   );
 
   line-height: var(--line-height--tight);
+  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 aside p {
