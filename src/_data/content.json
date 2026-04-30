@@ -65,6 +65,21 @@
       "title": "Writing",
       "dated_list": [
         {
+          "title": "Trimming our CSS with sibling-index() and sibling-count()",
+          "url": "https://thoughtbot.com/blog/trimming-our-css-with-sibling-index-and-sibling-count",
+          "date": "2026"
+        },
+        {
+          "title": "The age of snarky UI",
+          "url": "https://thoughtbot.com/blog/the-age-of-snarky-ui",
+          "date": "2026"
+        },
+        {
+          "title": "You, too, can make a boilerplate",
+          "url": "https://thoughtbot.com/blog/you-too-can-make-a-boilerplate",
+          "date": "2026"
+        },
+        {
           "title": "I just want to click the button",
           "url": "https://thoughtbot.com/blog/i-just-want-to-click-the-button",
           "date": "2025"
@@ -116,6 +131,11 @@
       "title": "Podcasts, interviews, talks, etc.",
       "aside": "",
       "dated_list": [
+        {
+          "title": "The Opinionated thoughtbotter: You're not a full-stack developer without CSS",
+          "url": "https://www.youtube.com/watch?v=By6SuDLdJJ8",
+          "date": "2025"
+        },
         {
           "title": "The Bike Shed: What is quality software?",
           "url": "https://bikeshed.thoughtbot.com/465",
