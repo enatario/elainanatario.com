@@ -65,6 +65,11 @@
       "title": "Writing",
       "dated_list": [
         {
+          "title": "When to use (and not use) CSS shorthand properties",
+          "url": "https://thoughtbot.com/blog/when-to-use-and-not-use-css-shorthand-properties",
+          "date": "2026"
+        },
+        {
           "title": "Trimming our CSS with sibling-index() and sibling-count()",
           "url": "https://thoughtbot.com/blog/trimming-our-css-with-sibling-index-and-sibling-count",
           "date": "2026"
